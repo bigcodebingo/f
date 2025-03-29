@@ -9,5 +9,5 @@ printfn "Введите число:"
 let number = System.Console.ReadLine() |> int 
  
 let sum = sumOfDigits number 
-printfn "Сумма цифр числа %d равна %d" number sum 
+printfn "Сумма цифр  %d равна %d" number sum 
  
